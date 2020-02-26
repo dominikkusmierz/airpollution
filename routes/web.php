@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'AirController@search');
+
+Route::get('/allstations','AirController@allstations');
+
+Route::get('/station/{name}/{id}','AirController@station');
