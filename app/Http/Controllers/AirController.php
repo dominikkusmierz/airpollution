@@ -18,7 +18,7 @@ class AirController extends Controller
         return view('stations.allstation',compact('stations'));
     }
 
-
+    
     public function station($name,$id){
 
         // $param=Air::param($id);

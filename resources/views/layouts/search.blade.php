@@ -6,20 +6,18 @@
 
 
 <div class="container">
-<h1>AirPollution</h1>
-<br/>
-<form action='/search' method='GET'>
-<div class="input-group mb-3">
-    <input type="text" name="city" class="form-control search-txt" placeholder="Miasto" aria-label="Miasto" aria-describedby="button-addon2">
-    <div class="input-group-append">
-      <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Szukaj</button>
-    </div>
-    
-  </div>
-  <hr/>
-  <a href="/allstations">
-    <small>Wszystkie stacje</small>
+  <h1>AirPollution</h1>
+  <br />
+  
+  <p>AirPollution to prosta strona pokazująca aktualny stopień zanieczyszczenia powietrza w polsce.</p>
+
+
+    <a href="/allstations">
+      <button class='btn'">
+      Lista miast
+      </button>
     </a>
-</form>
+  </a>
 </div>
+
 @endsection
