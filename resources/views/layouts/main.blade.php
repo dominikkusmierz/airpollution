@@ -18,20 +18,28 @@
         body{
             height:100vh;
             background-color:#F9F9F8;
+            background:url("/images/background.jpg");
+            background-size:100vw;
             font-family: 'spartan';
+            overflow:hidden;
         }
         h1{
-            font-size:50px;
+            font-size:70px;
             color:#A09E9B;
         }
         .container {
             height:100%;
             display:flex;
-            justify-content:center;
+            margin-top:5%;
             align-items:center;
             flex-direction:column;
             
+            
         }
+       .scroll{
+           overflow:auto;
+           height:90vh;
+       }
         a{
             color:#A09E9B;
             font-decoration:none;
@@ -46,7 +54,18 @@
         li:hover{
             background-color:#A09E9B;
         }
-        
+        input[type="text"]{
+            background:none;
+            border:none;
+            border-bottom:1px solid;
+        }
+        .btn{
+            border:none;
+            border-bottom:1px solid;
+            border-left:1px dotted;
+        }
+
+
     </style>
 </head>
 
