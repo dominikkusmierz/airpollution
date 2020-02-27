@@ -14,62 +14,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <style>
-        body{
-            height:100vh;
-            background-color:#F9F9F8;
-            background:url("/images/background.jpg");
-            background-size:100vw;
-            font-family: 'spartan';
-            overflow:hidden;
-        }
-        h1{
-            font-size:70px;
-            color:#A09E9B;
-        }
-        .container {
-            height:100%;
-            display:flex;
-            margin-top:5%;
-            align-items:center;
-            flex-direction:column;
-            
-            
-        }
-       .scroll{
-           overflow:auto;
-           height:90vh;
-       }
-        a{
-            color:#A09E9B;
-            font-decoration:none;
-        }
-        a:hover{
-            color:#A09E9B;
-            text-decoration-style:dotted;
-        }
-        li{
-            transition:0.3s;
-        }
-        li:hover{
-            background-color:#A09E9B;
-        }
-        input[type="text"]{
-            background:none;
-            border:none;
-            border-bottom:1px solid;
-        }
-        .btn{
-            border:none;
-            border-bottom:1px solid;
-            border-left:1px dotted;
-        }
-
-
-    </style>
+   <link rel="stylesheet" href="/css/app.css">
 </head>
 
 <body>
+    <a href="/" style="font-size:20px;padding:10px;">Strona główna</a>
         
             @yield('content')
         

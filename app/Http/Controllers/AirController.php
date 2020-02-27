@@ -25,13 +25,13 @@ class AirController extends Controller
         // $param=json_decode($param);
         // dd($param);
 
-        
+        //stacje posiadające / w nazwie zmieniają link do strony.
+
         $quality=Air::quality($id);
+        
         $quality=json_decode($quality);
-        dd($quality);
-
-
-        return view('stations.station',compact('param','name'));
+        
+        return view('stations.station',compact('quality','name'));
     }
 
 }
