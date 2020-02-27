@@ -9,7 +9,7 @@
   <h1>AirPollution</h1>
   <br />
   
-  <p>AirPollution to prosta strona pokazująca aktualny stopień zanieczyszczenia powietrza w polsce.</p>
+  <p>AirPollution to prosta strona pokazująca aktualny stopień zanieczyszczenia powietrza w Polsce.</p>
 
 
     <a href="/allstations">
